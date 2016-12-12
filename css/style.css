@@ -1,0 +1,60 @@
+#header{
+	background: url('http://i2.cdn.cnn.com/cnnnext/dam/assets/151201152016-steve-jobs-the-man-in-the-machine-background-full-169.jpg') fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+	color: white;
+}
+
+body{
+	font-family: 'lato';
+	color: #111;
+	position: relative;
+	overflow-x:hidden;
+
+}
+
+hr{
+	width: 100px;
+}
+hr.icon:after{
+	content: "\f123";
+	font-family: 'FontAwesome';
+	font-size: 22px;
+	background-color: #ffffff;
+	position: relative;
+	top: -0.8em;
+	padding: .30em;
+}
+
+.section-heading h3{
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+.section-headion hr{
+	border-color: black; 
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.introText{
+	font-size: 72px;
+	font-weight: 100;
+
+	display: inline-block;
+	padding: 0 20px 15px 20px;
+}
+#header h3{
+	font-weight: 300;
+	margin: 0;
+}
+#header .learn-me{
+	color: #fff;
+	position: absolute;
+	font-size: 30px;
+}
+.center-everything {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
